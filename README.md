@@ -4,8 +4,6 @@ Ein browserbasiertes Tool zum automatischen Entfernen nicht-deutscher Sonderzeic
 
 ## Hintergrund
 
-Viele Fachanwendungen (z.B. im Gesundheits- oder Verwaltungsbereich) akzeptieren beim Datenimport keine Sonderzeichen aus anderen Sprachen. Namen wie *Çetin*, *Šimić* oder *Łukasz* führen zu Importfehlern oder Duplikaten in der Datenbank.
-
 Dieses Tool bereinigt Excel-Dateien vor dem Import: Sonderzeichen werden in ihre lateinischen Entsprechungen umgewandelt, deutsche Umlaute (ä, ö, ü, ß) bleiben dabei **immer erhalten**.
 
 ## Features
@@ -20,7 +18,9 @@ Dieses Tool bereinigt Excel-Dateien vor dem Import: Sonderzeichen werden in ihre
 
 ## Verwendung
 
-1. `ExcelSonderzeichenEntferner.html` herunterladen
+[https://vercel.com/jamie-steins-projects/excel-cleane](https://excel-cleaner-ten.vercel.app/) oder:
+
+1. `index.html` herunterladen
 2. Im Browser öffnen (Chrome, Firefox, Edge – alle modernen Browser)
 3. Excel-Datei hochladen (`.xlsx` oder `.xls`)
 4. Vorschau prüfen – grün markierte Felder zeigen alle Änderungen
