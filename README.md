@@ -4,6 +4,7 @@ Ein browserbasiertes Tool zum automatischen Entfernen nicht-deutscher Sonderzeic
 
 ## Hintergrund
 
+Entwickelt für Anwendungen, in denen Excel-Dateien (xls, xlsx) importiert werden – zur Vermeidung von Dubletten.
 Dieses Tool bereinigt Excel-Dateien vor dem Import: Sonderzeichen werden in ihre lateinischen Entsprechungen umgewandelt, deutsche Umlaute (ä, ö, ü, ß) bleiben dabei **immer erhalten**.
 
 ## Features
